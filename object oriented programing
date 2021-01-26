@@ -1,0 +1,22 @@
+<?php
+
+Class Fruits {
+
+    var $name;
+
+    function set_fruit($text) {
+         $this->name = $text;
+  }
+
+    function get_name() {
+         return $this->name;
+  }
+
+}
+
+$fruits = new Fruits;
+$fruits->set_name('orange')
+$fruits->get_name();
+
+
+ ?>
