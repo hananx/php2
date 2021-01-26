@@ -4,7 +4,7 @@ Class Fruits {
 
     var $name;
 
-    function set_fruit($text) {
+    function set_name($text) {
          $this->name = $text;
   }
 
