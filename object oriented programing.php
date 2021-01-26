@@ -1,6 +1,6 @@
 <?php
 
-Class Fruits {
+class Fruits {
 
     var $name;
 
@@ -17,6 +17,5 @@ Class Fruits {
 $fruits = new Fruits;
 $fruits->set_name('orange');
 $fruits->get_name();
-
 
  ?>
