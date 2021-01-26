@@ -9,7 +9,7 @@ Class Fruits {
   }
 
     function get_name() {
-         return $this->name;
+         echo $this->name;
   }
 
 }
