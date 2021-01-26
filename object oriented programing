@@ -15,7 +15,7 @@ Class Fruits {
 }
 
 $fruits = new Fruits;
-$fruits->set_name('orange')
+$fruits->set_name('orange');
 $fruits->get_name();
 
 
